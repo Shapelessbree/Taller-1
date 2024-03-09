@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black; /* Fondo negro */
+}
+
+.background {
+  background-color: white; /* Fondo blanco de la tarjeta */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.identity-card {
+  display: flex;
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Para una imagen de perfil circular */
+  margin-right: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-custom-size {
+  font-size: 24px; /* Puedes ajustar este valor según tus necesidades */
+}
+
